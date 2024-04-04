@@ -4,6 +4,7 @@ metadata:
   name: "cluster0404"
   environment:
     cluster_type: ec2
+    public_ip: 107.20.26.215
   annotations:
     github.com/project-slug: veecode-homolog/cluster0404
     backstage.io/techdocs-ref: dir:.
@@ -13,4 +14,3 @@ spec:
   lifecycle: experimental
   owner: "group:default/admin"
   dependsOn: ["environment:default/ec2_environment"]
-  
